@@ -76,6 +76,7 @@ function lookForAuditorContainers( containersHaveBeenFound ) {
 		containers.forEach(function( container) {
 			//console.log("img: " + container.Image);
 			if (container.Image === "res/auditor") {
+
 				auditors.push(container);
 			}
 		});
